@@ -34,9 +34,14 @@ button {
     text-transform: uppercase;
     width: fit-content;
     font-family: 'Roc_Grotesk_Wide';
-    line-height: 12px;    
+    line-height: 12px;
+    display: flex;  
+    align-items: center; 
 }
 button span {
     display: flex;
     align-items: center;
+}
+button i {
+    margin: 5px;
 }
