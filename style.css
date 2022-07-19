@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Roc_Grotesk_Regular';
+    src: url('./assets/fonts/Roc_Grotesk_Regular.otf') format("opentype");
+}
+@font-face {
+    font-family: 'Roc_Grotesk_Wide';
+    src: url('./assets/fonts/Roc_Grotesk_Wide.otf') format("opentype");
+}
+
+body {
+    font-family: 'Roc_Grotesk_Wide';
+    text-transform: uppercase !important;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box; 
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+button {
+    background: transparent;
+    border: 1px solid black;
+    padding: 7px 10px;
+    outline: none;
+    text-transform: uppercase;
+    width: fit-content;
+    font-family: 'Roc_Grotesk_Wide';
+    line-height: 12px;    
+}
+button span {
+    display: flex;
+    align-items: center;
+}
